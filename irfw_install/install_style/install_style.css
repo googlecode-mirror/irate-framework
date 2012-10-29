@@ -1,0 +1,15 @@
+/**
+ * ======================================
+ * Irate Framework Installation CSS
+ * Created by Irate Designs
+ * www.iratedesigns.com
+ * Contact: framework@iratedesigns.com
+ * ======================================
+ **/
+
+body{background:#FFF;}
+.maindiv{width:800px;min-height:600px;position:absolute;top:50%;left:50%;margin-left:-400px;margin-top:-300px;background:#DDD;border:1px solid #BBB;border-radius:4px;-moz-box-shadow: 0 0 8px #888;-webkit-box-shadow: 0 0 8px#888;box-shadow: 0 0 8px #888;}
+.main-header{width:100%;}
+.main-header-text{font-weight:bold;padding:5px;border-bottom:1px solid #000;}
+.main-body{padding:5px;}
+.body-info{width:100%;border:1px solid #000;background:#fff;max-height:150px;overflow:auto;}

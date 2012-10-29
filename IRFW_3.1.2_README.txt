@@ -1,0 +1,34 @@
+Irate Framework v3.1.2
+=========================================
+3.1.2 features a newly scripted installation method, even though it
+may seem the same on the front end, it's scripted completely different
+on the back end for easy implementation of future updates. This version
+also comes with automatic mobile recognition script. You can easily use
+this in the template files by simply using:
+
+{if $is_mobile}Do mobile stuff here{/if}
+
+Or you can use the following in the php script:
+
+if($irfw->mobile->check())
+{
+    //Do Mobile Stuff here
+}
+
+A little more work has been done on optimizing the modulator system, and
+has been implemented into the irfw core rather than being included on
+it's own. This will create a more optimized load time.
+
+I am deciding on adding a new IRFW Control panel that will specialize in
+altering the database information, rather than trying to edit modules
+within it.
+
+
+How to install:
+=========================================
+Upload contents of HTDOCS to your server and
+follow the following steps.
+
+1. Go to http://your_upload_directory/irfw_install/install.php
+2. Follow the steps
+3. Hit Finish and you're done! (Depending on CHMOD, you may have to delete it yourself).
